@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style-nav.css">
+    <title>SHiter Pitha</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="audio-video.html">Audio-Video</a>
+                    <ul class="dropdown">
+                        <li><a href="">link-1</a></li>
+                        <li><a href="">link-2</a></li>
+                        <li><a href="">link-3</a></li>
+                        <li><a href="">link-4</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="form.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Shither Pitha</h1>
+    <form action="">
+        <p>
+            Name: <input type="text" placeholder="Enter your name" name="name" id="name">
+        </p>
+        <p>
+            Email: <input type="text" placeholder="Enter your email" name="email" id="email">
+        </p>
+        <fieldset>
+            <legend>Select your Favourite Pitha</legend>
+            <p>
+                <label for="Chitoy">
+                    <input type="radio" name="pitha" id="Chitoy"> Chitoy
+                </label>
+            </p>
+            <p>
+                <label for="Vapa">
+                    <input type="radio" name="pitha" id="Vapa"> Vapa
+                </label>
+            </p>
+            <p>
+                <label for="Dim Pitha">
+                    <input type="radio" name="pitha" id="Dim Pitha"> Dim Pitha
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select Borta</legend>
+            <p>
+                <label for="Shorisha"><input type="checkbox" name="Shorisha" id="Shorisha"> Shorisha</label>
+            </p>
+
+            <p>
+                <label for="Kalijira"><input type="checkbox" name="Kalijira" id="Kalijira"> Kalijira</label>
+            </p>
+
+            <p>
+                <label for="Dhoniya"><input type="checkbox" name="Dhoniya" id="Dhoniya"> Dhoniya</label>
+            </p>
+        </fieldset>
+        <br>
+        <p>
+            Detail Information
+            <br>
+            <textarea name="Instruction" id="" cols="85" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
